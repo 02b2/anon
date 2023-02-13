@@ -19,7 +19,7 @@ const HeroContainer = () => {
       <div className="enjoy-your-visiit-container">
         <span className="enjoy-your-visiit-container1">
           <p className="blank-line">&nbsp;</p>
-          <p className="enjoy-your-visiit">ENJOY YOUR VISIIT!!!</p>
+          <p className="enjoy-your-visiit">ENJOY YOUR VISIT!!!</p>
         </span>
       </div>
       <Button
