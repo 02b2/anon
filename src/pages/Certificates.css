@@ -1,0 +1,88 @@
+.cybrary-cert-malware-threats-p-icon,
+.cybrary-cert-post-exploitation-icon {
+  position: absolute;
+  height: 38.63%;
+  width: 30%;
+  top: -0.04%;
+  right: 70.04%;
+  bottom: 61.41%;
+  left: -0.04%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.cybrary-cert-post-exploitation-icon {
+  top: 0;
+  right: 0;
+  bottom: 61.37%;
+  left: 70%;
+}
+.cs50x-1-copy-page-1-1,
+.cybrary-cert-command-line-basi-icon,
+.cybrary-cert-web-application-p-icon {
+  position: absolute;
+  height: 39.68%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.cybrary-cert-command-line-basi-icon,
+.cybrary-cert-web-application-p-icon {
+  width: 30%;
+  top: 60.46%;
+  bottom: -0.14%;
+}
+.cybrary-cert-web-application-p-icon {
+  right: 70%;
+  left: 0;
+}
+.cybrary-cert-command-line-basi-icon {
+  right: 0;
+  left: 70%;
+}
+.cs50x-1-copy-page-1-1 {
+  width: 35%;
+  top: 27.23%;
+  right: 32.5%;
+  bottom: 33.1%;
+  left: 32.5%;
+}
+.certificates-card {
+  position: relative;
+  width: 1300px;
+  height: 678.3px;
+  flex-shrink: 0;
+}
+.certificates {
+  position: relative;
+  background-color: var(--color-black);
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-2xl);
+}
+@media screen and (max-width: 960px) {
+  .cybrary-cert-command-line-basi-icon,
+  .cybrary-cert-malware-threats-p-icon,
+  .cybrary-cert-post-exploitation-icon,
+  .cybrary-cert-web-application-p-icon {
+    width: 200px;
+    height: 134px;
+  }
+  .cs50x-1-copy-page-1-1 {
+    width: 300px;
+    height: 177px;
+  }
+  .certificates-card {
+    width: 700px;
+  }
+  .certificates {
+    width: auto;
+    height: auto;
+  }
+}

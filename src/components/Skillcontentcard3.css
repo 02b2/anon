@@ -1,0 +1,141 @@
+.node-js1 {
+  position: absolute;
+  top: calc(50% - 9.5px);
+  left: calc(50% - 28px);
+  line-height: 142.5%;
+  display: inline-block;
+  width: 50px;
+  height: 20px;
+}
+.logosnextjs-original-icon {
+  position: absolute;
+  top: 7px;
+  left: 13.5px;
+  width: 30px;
+  height: 30px;
+}
+.base-icon6 {
+  opacity: 0.2;
+}
+.base-icon6,
+.ellipse-icon6 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.div6 {
+  position: absolute;
+  height: 36.92%;
+  width: 86.15%;
+  top: 31.54%;
+  left: 6.92%;
+  letter-spacing: -0.02em;
+  line-height: 22px;
+  display: inline-block;
+}
+.loader6,
+.node-js {
+  position: absolute;
+  overflow: hidden;
+}
+.loader6 {
+  top: calc(50% - 20.5px);
+  left: calc(50% + 30px);
+  width: 40px;
+  height: 40px;
+  font-size: var(--font-size-6xs);
+  color: var(--dark-theme-label-31);
+}
+.node-js {
+  top: 15px;
+  left: 0;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-100);
+  width: 144px;
+  height: 45px;
+  font-size: var(--font-size-3xs);
+}
+.next-js1 {
+  position: absolute;
+  top: calc(50% - 12.5px);
+  left: calc(50% - 33px);
+  line-height: 142.5%;
+  display: inline-block;
+  width: 53px;
+  height: 25px;
+}
+.loader7 {
+  position: absolute;
+  top: 3px;
+  left: 102px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  font-size: var(--font-size-6xs);
+  color: var(--dark-theme-label-31);
+}
+.logosnodejs-plain-icon,
+.next-js {
+  position: absolute;
+  top: 7px;
+  left: 13.5px;
+  width: 30px;
+  height: 29.54px;
+}
+.next-js {
+  top: 177px;
+  left: 0;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-100);
+  width: 144px;
+  height: 45px;
+  overflow: hidden;
+}
+.solidity1 {
+  position: absolute;
+  top: calc(50% - 11.5px);
+  left: calc(50% - 34px);
+  line-height: 142.5%;
+  display: inline-block;
+  width: 53px;
+  height: 24px;
+}
+.loader8,
+.solidity {
+  position: absolute;
+  overflow: hidden;
+}
+.loader8 {
+  top: 2px;
+  left: 102px;
+  width: 40px;
+  height: 40px;
+  font-size: var(--font-size-6xs);
+  color: var(--dark-theme-label-31);
+}
+.solidity {
+  top: 95px;
+  left: 0;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-100);
+  width: 144px;
+  height: 45px;
+}
+.smart-contracts {
+  position: relative;
+  width: 149px;
+  height: 225px;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--font-size-2xs);
+  color: var(--primary-contrast1);
+  font-family: var(--font-iceberg);
+}

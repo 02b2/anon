@@ -1,0 +1,112 @@
+.story-image-icon {
+  height: 16.65%;
+  top: 5.08%;
+  bottom: 78.27%;
+}
+.story-image-icon,
+.story-image-icon1,
+.story-image-icon2,
+.story-image-icon3 {
+  position: absolute;
+  width: 20.08%;
+  right: 74.73%;
+  left: 5.19%;
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  opacity: 0.9;
+}
+.story-image-icon1 {
+  height: 16.43%;
+  top: 28.86%;
+  bottom: 54.7%;
+}
+.story-image-icon2 {
+  height: 16.65%;
+  top: 52.32%;
+  bottom: 31.03%;
+}
+.story-image-icon3 {
+  height: 16.65%;
+  top: 76.65%;
+  bottom: 6.7%;
+}
+.experienced-in-designing {
+  height: 7.57%;
+  width: calc(100% - 481.19px);
+  top: 11.57%;
+  left: 357px;
+}
+.experienced-in-designing,
+.experienced-in-sql,
+.heavily-involved-in {
+  position: absolute;
+  line-height: 26px;
+  display: inline-block;
+  opacity: 0.9;
+}
+.heavily-involved-in {
+  height: 7.78%;
+  width: calc(100% - 340.19px);
+  top: 35.03%;
+  left: 286px;
+}
+.experienced-in-sql {
+  height: 7.68%;
+  width: calc(100% - 496.19px);
+  top: 58.7%;
+  left: 364px;
+}
+.developed-uiux-using {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.to-increase-target {
+  margin: 0;
+}
+.developed-uiux-using-container {
+  position: absolute;
+  height: 15.24%;
+  width: calc(100% - 331.19px);
+  top: 79.46%;
+  left: 282px;
+  line-height: 26px;
+  display: inline-block;
+  opacity: 0.9;
+}
+.skills-card {
+  position: absolute;
+  height: 46.25%;
+  width: 70.2%;
+  top: 9.15%;
+  right: 14.87%;
+  bottom: 44.6%;
+  left: 14.94%;
+  border-radius: var(--br-lg);
+  background-color: var(--color-gray-200);
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--primary-contrast1);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 960px) {
+  .story-image-icon,
+  .story-image-icon1,
+  .story-image-icon2,
+  .story-image-icon3 {
+    max-width: 50%;
+    max-height: 50%;
+  }
+}
+@media screen and (max-width: 420px) {
+  .story-image-icon,
+  .story-image-icon1,
+  .story-image-icon2,
+  .story-image-icon3 {
+    width: 100% !important;
+    height: auto !important;
+  }
+}

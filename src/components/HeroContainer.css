@@ -1,0 +1,40 @@
+.blank-line {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.enjoy-your-visiit {
+  margin: 0;
+}
+.enjoy-your-visiit-container1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.enjoy-your-visiit-container {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  width: 189px;
+  height: 78px;
+  flex-shrink: 0;
+}
+.buttoncontained-text-and-ico {
+  cursor: pointer;
+}
+.whitepedrologoedited-1-icon {
+  position: relative;
+  width: 75px;
+  height: 75px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.hero-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-2xl);
+  color: var(--primary-contrast1);
+  font-family: var(--font-iceberg);
+}

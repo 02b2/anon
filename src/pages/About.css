@@ -1,0 +1,240 @@
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
+  }
+  17% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
+  }
+  33% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
+  }
+  45% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+}
+@keyframes bounce-top {
+  0% {
+    transform: translateY(-45px);
+    animation-timing-function: ease-in;
+    opacity: 1;
+  }
+  24% {
+    opacity: 1;
+  }
+  40% {
+    transform: translateY(-24px);
+    animation-timing-function: ease-in;
+  }
+  65% {
+    transform: translateY(-12px);
+    animation-timing-function: ease-in;
+  }
+  82% {
+    transform: translateY(-6px);
+    animation-timing-function: ease-in;
+  }
+  93% {
+    transform: translateY(-4px);
+    animation-timing-function: ease-in;
+  }
+  25%,
+  55%,
+  75%,
+  87% {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+  }
+  to {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+}
+.wave-81840-2-icon {
+  position: absolute;
+  top: calc(50% - 1291.5px);
+  left: calc(50% - 703.5px);
+  width: 1407px;
+  height: 2861px;
+  object-fit: cover;
+}
+.cybor-bust-background-2-icon {
+  position: relative;
+  width: 676px;
+  height: 416.96px;
+  flex-shrink: 0;
+  object-fit: cover;
+  opacity: 1;
+}
+.cybor-bust-background-2-icon.animate {
+  animation: 3s ease-in 2s 1 normal forwards pulsate;
+}
+.cybor-bust-background-2-icon:hover {
+  animation: 1s ease 0s infinite normal none bounce-top;
+  opacity: 1;
+}
+.graphic-designer {
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 43.63px;
+  font-family: var(--font-changa-one);
+  text-align: left;
+}
+.years-vehicle-wrapping {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.general-advertising-design {
+  margin: 0;
+}
+.years-vehicle-wrapping-container {
+  position: relative;
+  line-height: 31.51px;
+}
+.button-card-description,
+.check-out-some {
+  position: relative;
+  line-height: 31.51px;
+  text-align: left;
+}
+.button-card-description {
+  margin: 0;
+  font-size: var(--font-size-2xs);
+  font-weight: 400;
+  font-family: var(--font-iceberg);
+  color: var(--color-black);
+}
+.gallery-button {
+  cursor: pointer;
+  border: 0;
+  padding: 15px;
+  background-color: transparent;
+  border-radius: 43px;
+  background: linear-gradient(180deg, #fff, rgba(255, 255, 255, 0)),
+    linear-gradient(180deg, #fff, rgba(255, 255, 255, 0)), #000;
+  box-shadow: 2px 2px 31px #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.harvard-university-logo-1-icon {
+  position: relative;
+  width: 200px;
+  height: 197.05px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.harvard-university-computer,
+.soc-1-analyst {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 31.51px;
+}
+.soc-1-analyst {
+  font-size: var(--font-size-xl);
+  line-height: 43.63px;
+}
+.security-analyst-background-2-icon {
+  position: relative;
+  width: 200px;
+  height: 150px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.smart-contract-auditor {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 43.63px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.openzeppelin-1024x686-1-icon {
+  position: relative;
+  width: 200px;
+  height: 133.98px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.junior-smart-contract {
+  margin: 0;
+  position: relative;
+  line-height: 31.51px;
+}
+.e-commerce-card-image {
+  position: relative;
+  border-radius: 5.26px;
+  width: 220px;
+  height: 133.57px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.about-card {
+  position: absolute;
+  width: 85.86%;
+  top: calc(50% - 1179.5px);
+  right: 7.04%;
+  left: 7.11%;
+  background-color: var(--color-gray-200);
+  height: 2083px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--primary-contrast1);
+  font-family: var(--font-iceberg);
+}
+.about {
+  position: relative;
+  background-color: var(--color-black);
+  width: 100%;
+  height: 2583px;
+  overflow: hidden;
+}
+@media screen and (max-width: 1200px) {
+  .cybor-bust-background-2-icon {
+    width: 478px;
+  }
+  .about-card {
+    width: auto;
+    height: auto;
+  }
+}
+@media screen and (max-width: 960px) {
+  .cybor-bust-background-2-icon {
+    width: 600px;
+  }
+  .button-card-description {
+    text-align: left;
+    flex: 1;
+    align-self: stretch;
+    height: auto;
+  }
+  .e-commerce-card-image {
+    width: 60%;
+    height: 60%;
+  }
+  .about-card {
+    width: auto;
+    height: auto;
+  }
+}
+@media screen and (max-width: 420px) {
+  .button-card-description {
+    width: 400px;
+  }
+}

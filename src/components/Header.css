@@ -1,0 +1,108 @@
+.whitepedrologo-2-icon3 {
+  position: relative;
+  width: 300px;
+  height: 51.6px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.hambuger-menu-child3 {
+  align-self: stretch;
+  position: relative;
+  border-top: 2px solid var(--color-lightpink);
+  box-sizing: border-box;
+  height: 2px;
+  flex-shrink: 0;
+}
+.hambuger-menu2 {
+  width: 26px;
+  flex-shrink: 0;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: var(--gap-2xs);
+}
+.about-vector-icon2 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.about-content2,
+.about3 {
+  cursor: pointer;
+  border: 0;
+  background-color: transparent;
+}
+.about3 {
+  padding: 0;
+  position: relative;
+  font-size: var(--font-size-2xs);
+  font-family: var(--font-iceberg);
+  color: var(--primary-contrast1);
+  text-align: center;
+  display: inline-block;
+  -webkit-text-stroke: 1px #fff;
+}
+.about-content2 {
+  padding: var(--padding-6xs) var(--padding-5xs);
+  border-radius: var(--br-2xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.contact-content2 {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contact-content2,
+.hamburger2 {
+  display: flex;
+  flex-direction: row;
+}
+.nav-content2 {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.nav-content2,
+.nav2 {
+  display: flex;
+  flex-direction: row;
+}
+.contact-content2 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-6xs) var(--padding-5xs);
+  background-color: transparent;
+  border-radius: var(--br-2xs);
+  gap: var(--gap-3xs);
+}
+.hamburger2,
+.nav-content2 {
+  gap: var(--gap-lg);
+}
+.hamburger2,
+.nav2 {
+  align-items: center;
+  justify-content: center;
+}
+.nav2 {
+  width: 1402px;
+  height: 80px;
+  flex-shrink: 0;
+  padding: 0 var(--padding-2xl);
+  box-sizing: border-box;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+}
+@media screen and (max-width: 960px) {
+  .hambuger-menu2 {
+    display: flex;
+    width: 23px;
+  }
+  .nav-content2 {
+    display: none;
+  }
+}

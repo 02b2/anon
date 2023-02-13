@@ -1,0 +1,110 @@
+.snaccidents-page-group-image-1-icon {
+  height: 31.23%;
+  width: 35.23%;
+  top: 32.16%;
+  right: 35.32%;
+  bottom: 36.61%;
+  left: 29.45%;
+  max-width: 100%;
+  overflow: hidden;
+}
+.cybor-bust-background-2-icon1,
+.n-1-icon,
+.snaccidents-page-group-image-1-icon {
+  position: absolute;
+  max-height: 100%;
+  object-fit: cover;
+}
+.n-1-icon {
+  height: 28%;
+  top: 67.83%;
+  bottom: 4.17%;
+  left: calc(50% - 114.5px);
+  width: 170px;
+}
+.cybor-bust-background-2-icon1 {
+  height: 31.57%;
+  width: 19.59%;
+  top: -1.72%;
+  right: 80.41%;
+  bottom: 70.15%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+}
+.cryptoescondido-1-icon,
+.logo-white-large-1-icon,
+.security-analyst-background-1-icon {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.security-analyst-background-1-icon {
+  height: 21.08%;
+  width: 18%;
+  top: 3.59%;
+  right: 52.8%;
+  bottom: 75.33%;
+  left: 29.2%;
+}
+.logo-white-large-1-icon {
+  height: 27.97%;
+  width: 12.07%;
+  top: 1.72%;
+  right: 28.93%;
+  bottom: 70.31%;
+  left: 59%;
+}
+.cryptoescondido-1-icon {
+  height: 28.1%;
+  width: 18%;
+  top: 0;
+  right: 3.4%;
+  bottom: 71.9%;
+  left: 78.6%;
+}
+.logo-01-01-1-icon,
+.logo-for-post-1 {
+  position: absolute;
+  height: 27.84%;
+  top: 71.06%;
+  bottom: 1.1%;
+  left: calc(50% + 212.5px);
+  max-height: 100%;
+  width: 170px;
+  object-fit: cover;
+}
+.logo-for-post-1 {
+  height: 28.17%;
+  top: 70.74%;
+  bottom: 1.09%;
+  left: calc(50% - 441.5px);
+}
+.gallery-card {
+  position: relative;
+  width: 1000px;
+  height: 617.76px;
+  flex-shrink: 0;
+}
+.gallery1 {
+  position: relative;
+  background-color: var(--color-black);
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-2xl);
+}
+@media screen and (max-width: 960px) {
+  .gallery-card {
+    width: 900px;
+  }
+  .gallery1 {
+    width: auto;
+    height: auto;
+  }
+}
